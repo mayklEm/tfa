@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\maykl\tfa\TestDesign1\src\main\assets" >
+            <file
+                name="tfa-numbers.csv"
+                path="C:\Users\maykl\tfa\TestDesign1\src\main\assets\tfa-numbers.csv" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\maykl\tfa\TestDesign1\src\debug\assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_section1">Jazyk</string>
+    <string name="title_section2">Všetky\nkategórie</string>
+    <string name="title_section3">Diagnostický\nporadca</string>
+    <string name="title_section4">Section 4</string>
+
+    <string name="choose_language">Vyber si jazyk:</string>
+    <string name="btn_activate">Nastav jazyk!</string>
+    <string name="btn_download">Stiahni preklad</string>
+    <string name="more_languages">Pre viac jazykov zapni internet</string>
+
+
+    <string name="btn_yes">Áno</string>
+    <string name="btn_no">Nie</string>
+
+    <string name="btn_back">Späť</string>
+
+    <string name="row_general">Všeovbecné</string>
+    <string name="row_police">Polícia</string>
+    <string name="row_medical">Záchranka</string>
+    <string name="row_fire">Hasiči</string>
+
+
+    <string name="disclaimer">Informácie v tejto aplikácii vám majú laickým spôsobom napomôcť pri situáciách, kedy je život naozaj v ohrození a každá sekunda je dôležitá. Príčiny a postupy pri poskytovaní prvej pomoci však neboli konzultované s lekárom. Napriek tomu, že sme sa v maximálnej miere snažili o to, aby informácie boli čo najpresnejšie, nepreberáme akúkoľvek zodpovednosť v prípade ohrozenia alebo straty života.\nCopyright &#169; Peter Matik</string>
+    <string name="questions_tooltip">Na základe tvojích odpovedí ti navrhnem možné diagnózy</string>
+
+
+    <string name="symptoms">Príznaky</string>
+    <string name="treatment">Liečba</string>
+    <string name="notes">Poznámky</string>
+
+
+    <string name="toast_language">Gratulujem!\nNastavil si nový jazyk aplikácie.</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The First Aid Everywhere</string>
+    <string name="title_section1">Language</string>
+    <string name="title_section2">All\nCategories</string>
+    <string name="title_section3">Diagnostic\nTool</string>
+    <string name="title_section4">Section 4</string>
+
+    <string name="btn_select_lang">Change language:</string>
+    <string name="more_languages">For more languages connect to the internet</string>
+    <string name="btn_activate">Set language!</string>
+    <string name="btn_download">Download translation</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+    <string name="btn_back">Back</string>
+
+    <string name="row_general">General</string>
+    <string name="row_police">Police</string>
+    <string name="row_medical">Ambulance</string>
+    <string name="row_fire">Fire</string>
+
+    <string name="disclaimer">The information in this application are supposed to assist in a lay way in situations where life is truly in danger and every second is important. But first aid instructions have not been consulted with a doctor. Despite the fact that we have tried our best to ensure that the information is accurate, we do not accept any responsibility in case of danger or loss of the life.\nCopyright &#169; Peter Matik</string>
+    <string name="questions_tooltip">Based on your answers I will suggest you some possible diagnoses</string>
+
+    <string name="symptoms">Symptoms</string>
+    <string name="treatment">Treatment</string>
+    <string name="notes">Notes</string>
+
+
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="choose_language">Choose Language</string>
+
+    <string name="toast_language">Congratulations!\nYou set up new language for application.</string>
+
+
+
+
+</resources>

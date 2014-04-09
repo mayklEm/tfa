@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/maykl/tfa/TestDesign1/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/maykl/tfa/TestDesign1/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">The First Aid Everywhere</string>
+    <string name="btn_activate">Set language!</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_download">Download translation</string>
+    <string name="btn_no">No</string>
+    <string name="btn_select_lang">Change language:</string>
+    <string name="btn_yes">Yes</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="disclaimer">The information in this application are supposed to assist in a lay way in situations where life is truly in danger and every second is important. But first aid instructions have not been consulted with a doctor. Despite the fact that we have tried our best to ensure that the information is accurate, we do not accept any responsibility in case of danger or loss of the life.\nCopyright © Peter Matik</string>
+    <string name="more_languages">For more languages connect to the internet</string>
+    <string name="notes">Notes</string>
+    <string name="questions_tooltip">Based on your answers I will suggest you some possible diagnoses</string>
+    <string name="row_fire">Fire</string>
+    <string name="row_general">General</string>
+    <string name="row_medical">Ambulance</string>
+    <string name="row_police">Police</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="title_section1">Language</string>
+    <string name="title_section2">All\nCategories</string>
+    <string name="title_section3">Diagnostic\nTool</string>
+    <string name="title_section4">Section 4</string>
+    <string name="toast_language">Congratulations!\nYou set up new language for application.</string>
+    <string name="treatment">Treatment</string>
+    <!-- From: file:/C:/Users/maykl/tfa/TestDesign1/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="ActionBar.Solid.Example" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_example</item>
+        <item name="android:backgroundStacked">#ff43b548</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_example</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Example" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_example</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Example" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_example</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Example" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_example</item>
+    </style>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_example</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Example</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Example</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Example</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_example</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_example</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Example</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Example.Widget</item>
+    </style>
+
+    <style name="DropDownListView.Example" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_example</item>
+    </style>
+
+    <style name="DropDownNav.Example" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_example</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_example</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_example</item>
+    </style>
+
+    <style name="PopupMenu.Example" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_example</item>
+    </style>
+
+    <style name="ProgressBar.Example" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_example</item>
+    </style>
+
+    <style name="Theme.Example.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
+    </style>
+
+    <style name="tfa_content" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:background">@drawable/tfa_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="tfa_title" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:background">@drawable/tfa_title</item>
+    </style>
+
+</resources>

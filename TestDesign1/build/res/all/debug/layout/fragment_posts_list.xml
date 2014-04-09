@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:layout_below="@+id/btn_list_back">
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:minWidth="150dp"
+        android:textColor="#fff"
+        android:text="@string/btn_back"
+        android:background="@drawable/blue_button"
+        android:id="@+id/btn_list_back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffe0e0e0"
+        android:layout_below="@+id/btn_list_back">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars = "vertical"
+            android:background="#ffe0e0e0">
+
+
+
+            <TextView android:id="@+id/itemTitle"
+                android:singleLine="false"
+                android:textSize="25dp"
+                style="@style/tfa_title"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_width="fill_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                style="@style/tfa_content">
+                <TextView
+                    android:text="@string/symptoms"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent" />
+                <TextView android:id="@+id/itemSymptoms"
+                    android:lineSpacingExtra="10dp"
+                    android:singleLine="false"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                style="@style/tfa_content">
+                <TextView
+                    android:text="@string/treatment"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent" />
+                <TextView android:id="@+id/itemTreatment"
+                    android:lineSpacingExtra="10dp"
+                    android:singleLine="false"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                style="@style/tfa_content">
+                <TextView
+                    android:text="@string/notes"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent" />
+                <TextView android:id="@+id/itemNote"
+                    android:singleLine="false"
+                    android:lineSpacingExtra="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/C:/Users/maykl/tfa/TestDesign1/src/main/res/layout/fragment_posts_list.xml -->

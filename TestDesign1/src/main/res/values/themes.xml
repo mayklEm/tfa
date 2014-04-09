@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <!--<style name="CustomActionBarTheme"-->
+        <!--parent="@style/Theme.Holo.Light.DarkActionBar">-->
+        <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; ActionBar styles &ndash;&gt;-->
+    <!--<style name="MyActionBar"-->
+        <!--parent="AppTheme">-->
+        <!--<item name="android:background">@drawable/actionbar_background</item>-->
+    <!--</style>-->
+</resources>
